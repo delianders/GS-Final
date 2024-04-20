@@ -1,0 +1,20 @@
+[
+    {
+        "character": "Fuji",
+        "image": "https://static.wikia.nocookie.net/garden_story/images/1/1a/Fuji.png",
+        "description": "Fuji is a Greenling character in Garden Story. They are an apple who works as an architect in Spring Hamlet."
+    },
+
+    {
+        "character": "Rana",
+        "image": "https://static.wikia.nocookie.net/garden_story/images/d/d5/Rana.png",
+        "description": "Rana is a Frog character in Garden Story. They moved from Lilyputt to Spring Hamlet, and is usually found in The Bend. They have a cheerful disposition, often joking or teasing to lighten the mood."
+    },
+
+    {
+        "character": "Coqui",
+        "image": "https://static.wikia.nocookie.net/garden_story/images/c/cb/Coqui.png",
+        "description": "Coqui is a Frog character in Garden Story. They reside in Summer Bar, and are usually found in Summer's End."
+    }
+
+]

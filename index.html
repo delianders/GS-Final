@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Delijah Anderson">
+    <meta name="description" content="Garden Story">
+    <title>Garden Story</title>
+
+    <!-- Fonts -->
+    <!-- Jua -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <!-- Abel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Jua&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!-- Accessible Slick Slider -->
+    <link href="accessible-slick-1.0.1/slick/accessible-slick-theme.min.css" rel="stylesheet">
+    <link href="accessible-slick-1.0.1/slick/slick-theme.min.css" rel="stylesheet">
+    <link href="accessible-slick-1.0.1/slick/slick.min.css" rel="stylesheet">
+
+    <script src="accessible-slick-1.0.1/slick/slick.min.js"></script>
+    <script src="accessible-slick-1.0.1/slick/slick.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Javascript link-->
+    <script async src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-style">
+                <li><a href="#">Steam</a></li>
+                <li><a href="#">Switch</a></li>
+                <li><a href="#">Xbox</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div>
+                <h1>Garden Story</h1>
+                <p>Embark on a wholesome adventure to save The Grove! Forage resources, combat the invasive Rot, and restore the community. Relax and enjoy the fruits of your labor in this charming action-RPG starring a grape.</p>
+                <a href="https://www.rosecitygames.com/garden-story" class="button-style" target="_blank">Learn more</a>
+            </div>
+            <iframe src="https://www.youtube.com/embed/cTEWmmYP1S4?si=YtycOEsU50PXKA4d" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="tabs">
+                <ul>
+                    <li><a href="#tab1">Explore</a></li>
+                    <li><a href="#tab2">Foster</a></li>
+                    <li><a href="#tab3">Cultivate</a></li>
+                </ul>
+                <div id="tab1">
+                    <p><strong>Explore A Lush, Living World</strong><br><br>Immerse yourself in The Grove’s vibrant, organic ecosystem with four distinct (and adorable!) regions to enjoy.</p>
+                    <img src="images/character.png" alt="purple character image" width="300">
+                </div>
+
+                <div id="tab2">
+                    <p><strong>Foster A Community</strong><br><br>Take on requests, complete favors, and work as a role model to provide inhabitants with the confidence to support one another. Don’t be afraid to ask for help: we’re rebuilding together!</p>
+                    <img src="images/gs_tab2.webp" alt="group of characters surrounding objects" width="400">
+                </div>
+
+                <div id="tab3">
+                    <p><strong>Cultivate Your Home</strong><br><br>Care for garden plots, gather resources, curate libraries, upgrade your tools, and rebuild structures.</p>
+                    <img src="images/gs_tab3.webp" alt="map of the game garden" width="400">
+                </div>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+
+            <div class="carousel-container">
+                <div id="first-img" class="media-img">
+                    <img src="images/media-img-1.jpeg" alt="small colorful characters on dock" width="575">
+                    <p>New shops available in Perennial Plaza</p>
+                </div>
+
+                <div id="mid-img" class="media-img">
+                    <img src="images/gs_GIF.gif" alt="moving image of characters" width="575">
+                    <p>Unlockables for completing Library Collections</p>
+                </div>
+
+                <div id="third-img" class="media-img">
+                    <img src="images/media-img-3.jpeg" alt="colorful map of the world" width="575">
+                    <p>Additional building plots</p>
+                </div>
+
+                <div>
+                    <img src="images/media-img-4.jpeg" alt="map of the scene in a colorful restaurant" width="575">
+                    <p>Final upgrade levels for tools (with a new look and special feature)</p>
+                </div>
+
+                <div>
+                    <img src="images/media-img-5.gif" alt="a purple plum running through a maze" width="575" height="330">
+                    <p>More shortcuts for easier traveling</p>
+                </div>
+
+                <div>
+                    <img src="images/media-img-6.jpeg" alt="three characters fishing in a lake looking surprise" width="575">
+                    <p>More hats and backpacks for Concord</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="theme">
+            <h2>Theme Color</h2>
+            <p>Change the Theme of the Site!</p>
+            <div id="color">
+                <button class="theme-buttons" id="red"></button>
+                <button class="theme-buttons" id="green"></button>
+                <button class="theme-buttons" id="purple"></button>
+            </div>
+        </section>
+
+        <section id="language">
+            <h2>Language Update</h2>
+            <p>Dive into the <i>cozy</i> world of Garden Story in 2 new languages:</p>
+            <p class="choose-lang"><b>Choose your Preferred Language!</b></p>
+            <div id="message"></div>
+            <div id="user-lang">
+                <button class="button-style" id="en">English</button>
+                <button class="button-style" id="sp">Spanish</button>
+                <button class="button-style" id="fr">French</button>
+            </div>
+        </section>
+
+        <section id="related">
+            <h2>Related Content</h2>
+            <div id="content"></div>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
